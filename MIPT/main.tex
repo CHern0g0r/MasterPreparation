@@ -1,0 +1,99 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+% \documentclass[14pt]{extarticle}
+\usepackage{pdfpages}
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Gamedev} % Title of the assignment
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+\section{Базовая часть}
+
+\subsection{Алгебра и геометрия, линейная алгебра}
+
+\subsubsection{Группы, кольца, поля. Определения и примеры. Циклические группы. Теорема о
+гомоморфизме.}
+
+\D{
+    Группа = $\langle M, \cdot\rangle$ - непустое множество с операцией
+
+    Верны следующие свойства
+    \begin{itemize}
+        \item Ассоциативность: $(a \cdot b) \cdot c = a \cdot (b\cdot c)$
+        \item Существование нейтрального: $\exists 1 \forall a : a \cdot 1 = 1 \cdot a = a$
+        \item Существование обратного: $\forall a \exists a^{-1}: a \cdot a^{-1} = 1$
+    \end{itemize}
+}
+
+Примеры $\mathbb{Z}, \mathbb{Z}/n\mathbb{Z}, \langle\mathbb{R}, \cdot\rangle$
+
+\D{
+    Абелева группа = группа + операция коммутативна.
+}
+
+
+\D{
+    Циклическая группа = группа, порожденная степенями одного элемента.
+
+    $G' = \langle g \rangle, g \in G$, $G$ - группа.
+}
+
+\D{
+    Кольцо = $\langle M, +, \cdot \rangle$
+    \begin{itemize}
+        \item Абелева группа относительно $+$
+        \item $\forall a, b, c \in M: a(b + c) = ab + ac \wedge (a+b)c = ac + bc$
+    \end{itemize}
+
+    Кольцо называется коммутативным, если умножение в нем коммутативно.
+
+    Ассоциативным, если ассоциативно.
+
+    Кольцо с единицей, если есть единица.
+}
+
+Следствия:
+\begin{itemize}
+    \item $a 0 = 0 a = 0$
+    \item $a(-b) = (-a) b = -ab$
+    \item $a(b-c) = ab - ac$
+\end{itemize}
+
+
+\D {
+    Поле = ассоциативное коммутативное кольцо с единицей, в котором каждый
+    элемент обратим.
+
+    Абелева группа по умножению.
+}
+
+\D{
+    Гомоморфизм групп = отображение $f: G \to H$, т.ч.
+    $\forall a, b \in G: f(ab) = f(a) f(b)$
+
+    \begin{itemize}
+        \item $Im f = \{f(a): a \in G\} < H$
+        \item $Ker f = \{a\in G : f(a) = e\} \lhd  G$ (нормальная)
+    \end{itemize}
+}
+
+\T[о гомоморфизме групп]{
+    $f: G \to H$ - гомоморфизм. Тогда
+    $Im f \simeq G / Ker f$
+}
+
+
+\end{document}
