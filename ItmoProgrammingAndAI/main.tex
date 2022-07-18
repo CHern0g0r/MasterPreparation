@@ -1016,7 +1016,9 @@ template <> struct fib <2> { static const int val = 1; };
 \subsubsection{Функторы}
 
 \href{https://habr.com/ru/post/183150/}{Объяснение на пальцах}
+
 \href{http://cmc-msu-ai.github.io/haskell-course/lecture/2013/09/07/functors.html}{Подробнее про функторы}
+
 \textbf{Функтором} называется класс типов, который декларирует единственный метод «fmap». Интуитивно, «fmap» применяет функцию a -> b к значению типа f a, чтобы получить значение типа f b. С другой стороны, можно рассматривать «fmap» как функцию высшего порядка, преобразующую «простую» функцию a -> b в «составную» функцию f a -> f b. Важно отметить, что структура значения типа f после применения «fmap» должна оставаться неизменной.
 
 \begin{lstlisting}[language=Haskell]
@@ -1270,7 +1272,11 @@ getChar :: IO Char
 
 \subsection{Параллельное программирование. Свойства прогресса (lock-freedom, waitfreedom). Свойства корректности (linearizability, sequential consistency). Универсальная конструкция.}
 
+\href{https://www.babichev.org/tpmtp/Lecture08.pdf}{Слайды по теме}
+
 \subsection{Параллельное программирование. Консенсусное число. Стек Трайбера. Очередь Майкла-Скотта.}
+	
+\href{https://www.babichev.org/tpmtp/Lecture09.pdf}{TODO}
 
 \subsection{Компьютерные сети. Модель OSI. Устройства коммутации и маршрутизации. Протоколы Ethernet, IP, TCP, UDP.}
 
