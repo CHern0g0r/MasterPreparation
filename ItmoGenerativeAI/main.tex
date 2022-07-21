@@ -815,4 +815,76 @@ $x_{k+1} = x_k - \lambda_k \nabla f(x_k)$
 	\min\limits_{\lambda \in [0, +\infty)} f(x_k - \lambda f'(x_k))$
 \end{itemize}
 
+\subsubsection{Линейная регрессия}
+
+\D{
+	\textbf{Линейная регрессия} - метод восстановления зависимости
+	одной переменной от других с линейной функцией зависимости.
+}
+
+Для заданного множества пар $\{(x_i, y_i)\}$ значений свободной и зависимой
+переменной требуется построить зависимость.
+
+Назначена линейная модель с аддитивной случайной величиной $\varepsilon$:
+
+$y_i = f(w, x_i) + \varepsilon_i$
+
+Предполагается, что $\varepsilon$ распределена нормально с нулевым матожиданием
+и фиксированной дисперсией $\sigma^2$, не зависящей от $x, y$. При таких
+предположениях параметры $w$ регрессионной модели вычисляются методом наименьших
+квадратов.
+
+\begin{itemize}
+	\item $f_1(x), ..., f_n(x)$ - числовые признаки объектов.
+	\item $f(w, x) = \sum\limits_1^n w_j f_j(x)$ - линейная модель.
+\end{itemize}
+
+\begin{equation}
+	F =
+	\begin{pmatrix}
+		f_1(x_1) & ... & f_n(x_1) \\
+		... & ... & ... \\
+		f_1(x_m) & ... & f_n(x_m)
+	\end{pmatrix},
+	y = 
+	\begin{pmatrix}
+		y_1 \\
+		\vdots \\
+		y_m
+	\end{pmatrix},
+	w =
+	\begin{pmatrix}
+		w_1 \\
+		\vdots \\
+		w_n
+	\end{pmatrix}
+\end{equation}
+
+МНК:
+
+$Q(w, X^m) = \sum\limits_{i=1}^m (f(w, x_i) - y_i)^2 = ||F w - y||^2 \to_w \min$
+
+$\frac{d Q}{d w} = 2F^T(F w - y) = 0$ - условие минимума.
+
+$\Rightarrow F^T F w = F^T y \Rightarrow w^* = (F^T F)^{-1}F^T y = F^+ y$
+
+\subsubsection{Сингулярное разложение}
+
+\T{
+	У любой матрицы $A$ размера $n \times m$ существует разложение на
+	матрицы $U, \Sigma, V^T: A_{n \times m} = U_{n \times n} \times \Sigma_{n \times m} \times V^T_{m \times m}$,
+	где матрицы $U, V$ являются ортогональными ($U U^T = U^T U = E$),
+	а матрица $\Sigma$ - диагональной.
+}
+
+Столбцы $U$ - собственные векторы матрицы $F F^T$, столбцы $V$ - собственные
+векторы матрицы $F^T F$.
+
+$F = VDU^T$
+
+$F^+ = (U D V^T V D U^T)^{-1} U D V^T = U D^{-1} V^T = \sum\limits_1^n
+\frac{1}{\sqrt{\lambda_j}} u_j v_j^T$
+
+$w^* = \sum\limits_1^n \frac{1}{\sqrt{\lambda_j}} u_j (v_j^T y)$
+
 \end{document}
