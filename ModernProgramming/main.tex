@@ -1,0 +1,295 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+% \documentclass[14pt]{extarticle}
+\usepackage{pdfpages}
+\usepackage{float}
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Programming and AI} % Title of the assignment
+
+%----------------------------------------------------------------------------------------
+
+\DeclareMathOperator*\uplim{\overline{lim}}
+
+\usepackage[parfill]{parskip}
+\usepackage{listings}
+
+\begin{document}
+	
+\maketitle % Print the title
+%\tableofcontents
+\section{Алгоритмы и структуры данных}
+
+\subsection{Сложность алгоритмов по времени и методы ее оценки}
+
+\href{https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C}{Асимптотическая сложность}
+
+
+\subsection{Структуры данных}
+
+\subsubsection{расширяющийся массив}
+
+\href{https://ru.algorithmica.org/cs/basic-structures/vector/}{Динамический массив}
+
+\subsubsection{список}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA#:~:text=List)%20%E2%80%94%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%2C%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B0%D1%8F,%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BA%D0%B0%D0%BA%20%D1%81%D1%82%D0%B5%D0%BA%20%D0%B8%20%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C}{Список}
+\subsubsection{двоичная куча}
+
+\href{https://ru.algorithmica.org/cs/basic-structures/vector/}{Куча}
+
+\subsection{Абстрактные типы данных}
+
+\subsubsection{стек}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D1%82%D0%B5%D0%BA}{Стек}
+
+\subsubsection{очередь}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9E%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C}{Очередь}
+
+\subsubsection{система непересекающихся множеств}
+
+\href{https://e-maxx.ru/algo/dsu}{С доказательствами времени работы}
+
+\href{https://ru.algorithmica.org/cs/set-structures/dsu/#:~:text=%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%BD%D0%B5%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D0%B5%D0%BA%D0%B0%D1%8E%D1%89%D0%B8%D1%85%D1%81%D1%8F%20%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%20(%D0%B0%D0%BD%D0%B3%D0%BB.,%D1%87%D0%B5%D0%BC%D1%83%20%D1%80%D0%B0%D0%B2%D0%B5%D0%BD%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0%C2%BB}{Без доказательств}
+
+\subsubsection{Алгоритмы сортировки}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8}{Сортировки}
+
+\subsubsection{Сортировка вставкой}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D0%B2%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%D0%BC%D0%B8}{Вставкой}
+
+\subsubsection{Сортировка слиянием}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5%D0%BC}{Слиянием}
+
+\subsubsection{Быстрая сортировка}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%91%D1%8B%D1%81%D1%82%D1%80%D0%B0%D1%8F_%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0}{Быстрая}
+
+\subsubsection{Сортировка кучей}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BA%D1%83%D1%87%D0%B5%D0%B9}{Кучей}
+
+\subsection{Методы построения алгоритмов}
+
+\subsubsection{разделяй и властвуй}
+
+\href{https://codechick.io/tutorials/dsa/dsa-divide-and-conquer}{Разделяй и властвуй}
+
+\subsubsection{динамическое программирование}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5}{neerc}
+
+\href{https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5}{Википедия, есть примеры задач}
+
+\subsubsection{жадные алгоритмы}
+
+\href{https://ru.wikipedia.org/wiki/%D0%96%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC}{Жадный алгоритм}
+
+\subsection{ Основная теорема о времени работы рекурсивных алгоритмов}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D1%82%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0}{Мастер теорема}
+
+\subsection{Алгоритмы поиска в графе }
+
+\subsubsection{поиск в ширину}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9E%D0%B1%D1%85%D0%BE%D0%B4_%D0%B2_%D1%88%D0%B8%D1%80%D0%B8%D0%BD%D1%83}{bfs}
+\subsubsection{поиск в глубину}
+
+\href{http://neerc.ifmo.ru/wiki/index.php?title=%D0%9E%D0%B1%D1%85%D0%BE%D0%B4_%D0%B2_%D0%B3%D0%BB%D1%83%D0%B1%D0%B8%D0%BD%D1%83,_%D1%86%D0%B2%D0%B5%D1%82%D0%B0_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD}{dfs}
+
+\subsubsection{алгоритм Дейкстры}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%94%D0%B5%D0%B9%D0%BA%D1%81%D1%82%D1%80%D1%8B}{Дейкстра}
+
+\subsubsection{алгоритм Беллмана — Форда}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%A4%D0%BE%D1%80%D0%B4%D0%B0-%D0%91%D0%B5%D0%BB%D0%BB%D0%BC%D0%B0%D0%BD%D0%B0}{Форд-Беллман}
+
+\subsubsection{алгоритм Флойда — Уоршала}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%A4%D0%BB%D0%BE%D0%B9%D0%B4%D0%B0#:~:text=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%20%D0%A4%D0%BB%D0%BE%D0%B9%D0%B4%D0%B0%20(%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%20%D0%A4%D0%BB%D0%BE%D0%B9%D0%B4%D0%B0%E2%80%93%D0%A3%D0%BE%D1%80%D1%88%D0%B5%D0%BB%D0%BB%D0%B0,%D1%85%D0%BE%D1%82%D1%8F%20%D0%B1%D1%8B%20%D0%BE%D0%B4%D0%B8%D0%BD%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B9%20%D1%86%D0%B8%D0%BA%D0%BB}{Флойд}
+
+\subsection{Двоичные деревья поиска}
+
+\subsubsection{(АВЛ-дерево}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%90%D0%92%D0%9B-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE}{АВЛ}
+
+\href{https://ru.wikipedia.org/wiki/%D0%90%D0%92%D0%9B-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE}{Все вращения}
+
+\subsubsection{Красно-черное дерево}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE-%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE}{Красно-черное}
+
+\subsection{Хэш-таблицы и операции над ними}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A5%D0%B5%D1%88-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0}{Хеш-таблицы}
+
+\subsection{Алгоритмы поиска подстроки}
+
+\subsubsection{Алгоритм Кнута-Морриса-Пратта}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%9A%D0%BD%D1%83%D1%82%D0%B0-%D0%9C%D0%BE%D1%80%D1%80%D0%B8%D1%81%D0%B0-%D0%9F%D1%80%D0%B0%D1%82%D1%82%D0%B0}{Кнута-Морриса-Пратта}
+
+\subsubsection{Алгоритм Рабина-Карпа}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8_%D0%B2_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B5_%D1%81_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC_%D1%85%D0%B5%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F._%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%A0%D0%B0%D0%B1%D0%B8%D0%BD%D0%B0-%D0%9A%D0%B0%D1%80%D0%BF%D0%B0}{Рабина-Карпа}
+
+\subsubsection{Алгоритм Ахо-Корасик}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%90%D1%85%D0%BE-%D0%9A%D0%BE%D1%80%D0%B0%D1%81%D0%B8%D0%BA}{Ахо-Корасик}
+
+\href{https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%90%D1%85%D0%BE_%E2%80%94_%D0%9A%D0%BE%D1%80%D0%B0%D1%81%D0%B8%D0%BA}{Асимптотика алгоритма}
+
+\subsection{Сложность вычислений}
+
+\subsubsection{ классы сложности P и NP}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9A%D0%BB%D0%B0%D1%81%D1%81_P}{Класс $P$}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9D%D0%B5%D0%B4%D0%B5%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F}{Недетерминированные вычисления}
+
+\subsubsection{примеры NP-полных задач}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%9A%D1%83%D0%BA%D0%B0}{Теорема Кука-Левина}
+
+\href{https://cgi.csc.liv.ac.uk/~igor/COMP309/3CP.pdf}{$3$-Coloring}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=NP-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%82%D0%B0_%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8_%D0%BE_%D0%BD%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D0%BC_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5}{Независимое множество}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8}{Другие задачи}
+
+
+\section{Статистика и машинное обучение}
+
+\subsection{Нормальное распределение}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5}{Нормальное расперделение}
+
+\href{https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0}{ЦПТ}
+
+
+\subsection{Вероятностная модель}
+
+\href{https://teach-in.ru/file/synopsis/pdf/probabilistic-model-M.pdf}{Есть какие-то термины}
+
+\subsection{Эмпирическая функция распределения}
+
+\href{https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F}{Эмпирическая фукнция распределения}
+
+\href{https://tvims.nsu.ru/chernova/ms/lec/node4.html}{Тоже что - то есть}
+
+\subsection{Гистограмма}
+
+\href{https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D1%81%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_(%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)}{Гистограмма}
+
+\subsection{Выборочные моменты, мода, медиана}
+
+\href{https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B1%D0%BE%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BC%D0%BE%D0%BC%D0%B5%D0%BD%D1%82%D1%8B}{Выборочные моменты}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B8%D0%B0%D0%BD%D0%B0_(%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)}{Медиана}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D0%B0_(%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)}{Мода}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9D%D0%B5%D1%80%D0%B0%D0%B2%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE_%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B0#:~:text=%D0%9D%D0%B5%D1%80%D0%B0%D0%B2%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE%20%D0%A7%D0%B5%D0%B1%D1%8B%D1%88%D0%B5%D0%B2%D0%B0%20(%D0%B0%D0%BD%D0%B3%D0%BB.,%D0%B1%D0%BB%D0%B8%D0%B7%D0%BA%D0%B8%D0%B5%20%D0%BA%20%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8E%20%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BE%D0%B6%D0%B8%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F}{Неравенства Маркова и Чебышева}
+
+\subsection{Метод максимального правдоподобия}
+
+\href{https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_%D0%BF%D1%80%D0%B0%D0%B2%D0%B4%D0%BE%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D0%B8%D1%8F}{Функция правдоподобия}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%B0%D0%B2%D0%B4%D0%BE%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D0%B8%D1%8F}{Метод максимального правдоподобия}
+
+\subsection{Методология машинного обучения и примеры прикладных задач}
+
+\href{https://www.osp.ru/cio/2018/05/13054535}{Машинное обучение: методы и способы}
+
+\href{http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F}{Приеладные задачи классификации}
+
+\subsection{Бинарные, категориальные, ординальные (порядковые) и вещественные признаки}
+
+\href{http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F}{Признаковое пространство}
+
+\subsection{Постановка задач классификации, кластеризации и ранжирования}
+
+\subsubsection{Классификация}
+
+\href{http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F#:~:text=%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%E2%80%94%20%D0%BE%D0%B4%D0%B8%D0%BD%20%D0%B8%D0%B7%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2%20%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE,%D0%AD%D1%82%D0%BE%20%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BD%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%BE%D0%B1%D1%83%D1%87%D0%B0%D1%8E%D1%89%D0%B5%D0%B9%20%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%BA%D0%BE%D0%B9}{Классификация}
+\subsubsection{Кластеризация}
+
+\href{https://datascience.eu/ru/%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-%D0%B8-%D0%B8%D1%85-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%BC/}{Кластеризация}
+
+\subsubsection{Ранжирование}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%BD%D0%B6%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5}{Ранжирование}
+
+
+\subsection{Функции потерь для задач классификации, регрессии и ранжирования}
+
+\href{https://id-lab.ru/posts/developers/funkcii/}{MSE и кросс-энтропия}
+
+\href{https://russianblogs.com/article/6840440533/}{5 функций потери регрессии}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%A0%D0%B0%D0%BD%D0%B6%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5}{Метрики качества ранжирования}
+
+
+\subsection{Методы отбора признаков}
+
+\href{https://habr.com/ru/company/jetinfosystems/blog/470622/}{Обзор методов отбора признаков}
+
+\subsection{Наивный байесовский классификатор}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%B1%D0%B0%D0%B9%D0%B5%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80#:~:text=%D0%9D%D0%B0%D0%B8%CC%81%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B0%CC%81%D0%B9%D0%B5%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%CC%81%D1%82%D0%BE%D1%80%20%E2%80%94%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B9%20%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D1%8B%D0%B9,%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%D0%BC%D0%BE%D0%B3%D1%83%D1%82%20%D0%BE%D0%B1%D1%83%D1%87%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BE%D1%87%D0%B5%D0%BD%D1%8C%20%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE.}{Наивный Байесовский классификатор}
+
+\section{ Программирование и архитектура ПО}
+
+\subsection{Основные принципы ООП}
+
+\href{https://tproger.ru/translations/oop-principles-cheatsheet/#:~:text=%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B%20%D0%9E%D0%9E%D0%9F,%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%B7%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%B4%D0%B0.}{Кратко}
+
+\href{https://training.epam.ua/News/Items/275?lang=ru}{Подробно}
+
+\subsection{Паттерны проектирования}
+
+\href{https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F}{Шаблон проектирования}
+
+\subsection{SOLID принципы}
+
+\href{https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)#:~:text=%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B%20SOLID%20%E2%80%94%20%D1%8D%D1%82%D0%BE%20%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5,%D0%BA%D0%BE%D0%B4%D0%B0%20%D1%81%20%D1%81%D0%BE%D0%B1%D0%BB%D1%8E%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D0%BE%D0%B2%20SOLID.}{SOLID}
+
+\subsection{Современные языки ООП}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F}{Список}
+
+\href{https://tproger.ru/translations/sovremennye-jazyki-programmirovanija-kotorye-zastavjat-vas-stradat-chast-1-oop/}{Особенности}
+
+\subsection{ Виртуальные машины (основы работы с типами, работа с памятью, загрузка сборок, сериализация)}
+
+\href{https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0}{Википедия}
+
+\href{https://azure.microsoft.com/ru-ru/resources/cloud-computing-dictionary/what-is-a-virtual-machine/#overview}{Что-то еще}
+
+
+\subsection{Многопоточность, основные примитивы синхронизации}
+
+\href{https://habr.com/ru/company/otus/blog/549814/}{Multithreading}
+
+\href{https://sites.google.com/site/interviewknowages/primitivy-sinhronizacii}{Примитивы синхронизации}
+
+\subsection{Монолит и микросервисная архитектура}
+
+\href{https://www.atlassian.com/ru/microservices/microservices-architecture/microservices-vs-monolith#:~:text=%D0%9C%D0%BE%D0%BD%D0%BE%D0%BB%D0%B8%D1%82%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D1%8D%D1%82%D0%BE%20%D0%B5%D0%B4%D0%B8%D0%BD%D1%8B%D0%B9%20%D0%BE%D0%B1%D1%89%D0%B8%D0%B9,%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BD%D0%B5%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D1%85%20%D0%BD%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%B5%D0%BC%D1%8B%D1%85%20%D1%81%D0%BB%D1%83%D0%B6%D0%B1.}{Сравнение микросервисной и монолитной архитектур}
+\end{document}
