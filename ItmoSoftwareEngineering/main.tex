@@ -59,10 +59,175 @@ $\Rightarrow \exists A^{-1} \rightarrow x = A^{-1} b$
 \end{itemize}
 
 
-\subsection{Матрицы. Ранг матрицы, ранг произведения матриц, ранг транс-
-понированной матрицы. Определитель матрицы. Определитель про-
-изведения.}
+\subsection{Матрицы. Ранг матрицы, ранг произведения матриц, ранг 
+транспонированной матрицы. Определитель матрицы. Определитель
+произведения.}
 
+\href{https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)}{Матрицы}
+
+Ранг матрицы = количество линейно независимых столбцов (строк).
+
+$rk A = rk A^T$
+
+$rk AB \leq min(rk A, rk B)$ (Столбец $AB$ представляется как линейная
+комбинация столбцов $A (B)$)
+
+\href{https://ru.wikipedia.org/wiki/%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C}{Определитель матрицы}
+
+$det(AB) = det A \cdot det B$
+
+
+\subsection{Основная теорема арифметики. Малая теорема Ферма, функция
+Эйлера. Мультипликативность функции Эйлера. Теорема Эйлера.}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%B0%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8}{Основная теорема арифметики}
+
+\T[Малая теорема ферма]{
+    $p$ - простое, $a$ - целое $a \nmid p \Rightarrow a^{p-1}\equiv 1 (mod\ p)$
+}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%A4%D0%B5%D1%80%D0%BC%D0%B0}{мтф}
+
+\D{
+    Функция Эйлера = $\phi(n) = |\{x\in \mathbb{N}: x < n \wedge gcd(x, n) = 1\}|$
+
+    $\forall n, m :\ gcd(n, m) = 1 \rightarrow \phi(nm) = \phi(n) \cdot \phi(m)$
+}
+\href{https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_%D0%AD%D0%B9%D0%BB%D0%B5%D1%80%D0%B0}{ссыль}
+
+\T[Теорема Эйлера]{
+    $gcd(a, m) = 1 \Rightarrow a^{\phi(m)} \equiv 1 (mod\ m)$
+}
+
+\href{https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%AD%D0%B9%D0%BB%D0%B5%D1%80%D0%B0_(%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%87%D0%B8%D1%81%D0%B5%D0%BB)}{ТЭ}
+
+
+\subsection{Вероятностное пространство. Независимые события. Теорема
+сложения. Условная вероятность. Полная система событий. Формула
+полной вероятности. Формула Байеса.}
+
+\D{
+    Вероятностное пространство = $(\Omega, \m{A}, \mathbb{P})$
+    \begin{itemize}
+        \item $\Omega$ = произвольное непустое множество элементарных событий
+        \item $\m{A}$ = $\sigma$-алгебра (замкнуто по дополнениям + объединение счетного) подмножеств $\Omega$, называемых случайными событиями
+        \item $\mathbb{P}$ = вероятностная мера ($\sigma$-аддитивная мера), т.ч. $\mathbb{P}(\Omega) = 1$
+    \end{itemize}
+}
+
+\href{https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE}{Вероятностное пространство}
+
+\D{
+    События $A, B$ независимы $\iff P(AB) = P(A) \cdot P(B)$
+}
+\href{https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C_(%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9)}{Независимые события}
+
+\D{
+    Условная вероятность: $P(B) > 0 \Rightarrow P(A|B) = \frac{P(AB)}{P(B)}$
+}
+
+\D{
+    Полная система событий = система случайных событий такая, что в результате произведённого случайного эксперимента непременно произойдет одно и только одно из них.
+}
+
+\D{
+    Формула полной вероятности:
+
+    $P(B_i) > 0 \wedge B_i \cap B_j = \emptyset \wedge \bigcup B_i = \Omega \Rightarrow
+    P(A) = \sum P(A | B_i) P(B_i)$
+}
+
+\D{
+    Формула Байеса:
+
+    $P(A | B) = \frac{P(B | A) P(A)}{P(B)}$
+}
+
+
+\subsection{Случайная величина и её функция распределения. Совместное
+распределение случайных величин. Распределение суммы независимых случайных величин.}
+
+\href{https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0}{Случайная величина}
+
+\D{
+    Функция распределения случайной величины $\xi$:
+
+    $F_\xi(x) = \mathbb{P}(\xi \leq x)$
+}
+
+\href{https://mipt.ru/education/chair/mathematics/study/methods/%D0%A1%D0%A0%D0%A1%D0%92_%D0%A1%D0%B0%D0%BC%D0%BE%D1%80%D0%BE%D0%B2%D0%B0(2).pdf}{Совместное распределение, сумма независимых}
+
+
+\subsection{Математическое ожидание и дисперсия случайной величины, их
+свойства.}
+
+$E[X] = \int\limits_{\Omega} \xi(\omega) d \mathbb{P}(d \omega) =
+\int\limits_{-\infty}^\infty x d F_\xi(x)$
+
+\href{https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BE%D0%B6%D0%B8%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5}{Матожидание}
+
+Свойства:
+\begin{itemize}
+    \item $E[a] = a$
+    \item $E[a X + b Y] = a E[X] + b E[Y]$
+    \item $0 \leq X \leq Y$ п.в. $\wedge E[Y] < \infty \Rightarrow 0 \leq E[X] \leq E[Y]$
+    \item $X = Y$ п.в. $\Rightarrow E[X] = E[Y]$
+    \item $X, Y$ - нез $\Rightarrow E[XY] = E[X] E[Y]$
+\end{itemize}
+
+$D[X] = E(X - E(X))^2$
+
+\href{https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BF%D0%B5%D1%80%D1%81%D0%B8%D1%8F_%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%BE%D0%B9_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D1%8B}{Дисперсия}
+
+Свойства:
+\begin{itemize}
+    \item $D[X] \geq 0$
+    \item $D[X] < \infty \Rightarrow E[X] < \infty$
+    \item $D[X] = 0 \iff X = E[X]$ п.в.
+    \item $D[X + Y] = D[X] + D[Y] + cov(X, Y)$
+    \item $D[\sum c_i X_i] = \sum c_i^2 D[X_i] + 2 \sum c_i c_j cov(X_i, X_j)$
+    \item $D[a X] = a^2 D[X]$
+    \item $D[-X] = D[X]$
+    \item $D[X + b] = D[X]$
+    \item 
+\end{itemize}
+
+
+\subsection{Теорема Больцано-Вейерштрасса и критерий Коши для числовой
+последовательности.}
+
+\T[Больцано-Вейерштрасса]{
+    $\{x_i\} \subset R^n$ - последовательность, $\forall k ||x_k|| \leq C \in R_+$
+
+    $\Rightarrow$
+
+    $\exists \{k_i\}: \{x_{k_i}\}$ сходится к некоторой точке пространства $R^n$
+
+}
+
+\href{https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%91%D0%BE%D0%BB%D1%8C%D1%86%D0%B0%D0%BD%D0%BE_%E2%80%94_%D0%92%D0%B5%D0%B9%D0%B5%D1%80%D1%88%D1%82%D1%80%D0%B0%D1%81%D1%81%D0%B0}{Т. Больцано-Вейерштрасса}
+
+\T[Критерий Коши]{
+    $\{a_n\} \subset R^n$
+
+    $\exists lim a_n \iff \forall \varepsilon > 0 \exists N: \forall m, n > N: |a_m - a_n| < \varepsilon$
+}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D0%B9_%D0%9A%D0%BE%D1%88%D0%B8}{Критерий Коши}
+
+
+\subsection{Два определения предела функции одной и нескольких переменных:
+с помощью окрестностей и через пределы последовательностей.}
+
+По Гейне:
+$A = \lim\limits_{x \to x_0} f(x) \iff
+\forall \{x_n\}: (\lim x_n = x_0 \wedge x_0 \notin \{x_n\})
+\rightarrow (\lim f(x_n) = A)$
+
+По Коши:
+$\lim\limits_{x \to x_0} f(x) = A \iff
+\forall \varepsilon > 0 \exists \delta = \delta(\varepsilon) > 0:
+\forall x : (0 < |x - x_0| < \delta) \rightarrow (|f(x) - A| < \varepsilon)$
 
 
 
