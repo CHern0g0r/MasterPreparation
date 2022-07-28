@@ -210,7 +210,7 @@ $D[X] = E(X - E(X))^2$
 \T[Критерий Коши]{
     $\{a_n\} \subset R^n$
 
-    $\exists lim a_n \iff \forall \varepsilon > 0 \exists N: \forall m, n > N: |a_m - a_n| < \varepsilon$
+    $\exists \lim a_n \iff \forall \varepsilon > 0 \exists N: \forall m, n > N: |a_m - a_n| < \varepsilon$
 }
 
 \href{https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D0%B9_%D0%9A%D0%BE%D1%88%D0%B8}{Критерий Коши}
@@ -229,6 +229,61 @@ $\lim\limits_{x \to x_0} f(x) = A \iff
 \forall \varepsilon > 0 \exists \delta = \delta(\varepsilon) > 0:
 \forall x : (0 < |x - x_0| < \delta) \rightarrow (|f(x) - A| < \varepsilon)$
 
+
+\subsection{Производные и дифференциалы функции одной и нескольких
+переменных. Достаточные условия дифференцируемости функции в
+точке. Теорема Лагранжа о среднем (формула конечных приращений).}
+
+
+
+\subsection{Исследование функции одной переменной с помощью производных:
+возрастание или убывание, экстремумы, выпуклость или вогнутость, точки перегиба. Асимптоты.}
+
+\href{http://mathprofi.ru/polnoe_issledovanie_funkcii_i_postroenie_grafika.html}{MathProfi}
+
+\subsection{Определённый интеграл и его свойства. Интегрируемость
+непрерывной функции. Формула Ньютона–Лейбница.}
+
+\href{https://ru.wikipedia.org/wiki/%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB}{Определенный интеграл}
+
+\D{
+    $\int\limits_a^b f(x) dx = \lim\limits_{\Delta x \to 0} \sum f(\xi_i) \Delta x_i$
+}
+
+Свойства:
+\begin{itemize}
+    \item $f, g$ - интегрируемы $\Rightarrow \exists \int\limits_a^b (\alpha f(x) + \beta g(x)) dx = \alpha \int f + \beta \int g$
+    \item $\int\limits_a^b = - \int\limits_b^a$
+    \item $\int\limits_a^a f = 0$
+    \item $\exists \int\limits_a^b f \Rightarrow f$ ограничена на отрезке.
+\end{itemize}
+
+
+\subsection{Сочетания, перестановки, бином Ньютона, биномиальные
+коэффициенты и их свойства. Треугольник Паскаля. Оценки на биномиальные
+коэффициенты.}
+
+Перестановки = нет выбора, есть порядок = $n!$
+
+Размещения = есть выбор, есть порядок = $A_n^m = \frac{n!}{(n-m)!}$
+
+Сочетания = есть выбор, нет порядка = $C_n^m = \frac{n!}{m! (n-m)!}$
+
+\D{
+    Бином Ньютона = разложение натуральной степени суммы на сумму степеней
+
+    $(a+b)^n = \sum\limits_{k=0}^n \left(n \atop k\right) a^{n-k} b^k$
+}
+
+Свойства биномиальных коэффициентов:
+\begin{itemize}
+    \item $\left(n \atop k\right) = \left(n-1 \atop k-1\right) + \left(n-1 \atop k\right)$
+    \item $\left(n \atop k\right) = \left(n \atop n-k\right)$
+    \item $\left(n \atop m\right) \left(m \atop n-k\right) = \left(n \atop k\right) \left(k \atop n-m\right)$
+    \item $\sum\limits_0^n \left(n \atop i\right) = 2^n$
+\end{itemize}
+
+\href{https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%BD%D0%BE%D0%BC%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D1%8D%D1%84%D1%84%D0%B8%D1%86%D0%B8%D0%B5%D0%BD%D1%82}{Биномиальный коэффициент}
 
 
 \section{Программирование}
