@@ -13,100 +13,95 @@
 \contentsline {subsubsection}{\numberline {1.3.1}Функциональные ряды}{9}{subsubsection.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.2}Степенные ряды}{10}{subsubsection.1.3.2}%
 \contentsline {subsubsection}{\numberline {1.3.3}Ряд Тейлора}{11}{subsubsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.4}Определители и их свойства. Системы линейных алгебраических уравнений и их исследование. Методы решения систем линейных алгебраических уравнений.}{12}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Определитель}{12}{subsubsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4}Определители и их свойства. Системы линейных алгебраических уравнений и их исследование. Методы решения систем линейных алгебраических уравнений.}{11}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Определитель}{11}{subsubsection.1.4.1}%
 \contentsline {subsubsection}{\numberline {1.4.2}Системы линейных уравнений}{12}{subsubsection.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.3}Методы решения систем уравнений}{13}{subsubsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.5}Линейные операторы в конечномерном пространстве и их матричное представление. Характеристический многочлен, собственные числа и собственные вектора линейного оператора. Сопряженные и самосопряженные операторы.}{14}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1} Линейные операторы}{14}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Характеристический многочлен}{15}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Методы решения систем уравнений}{12}{subsubsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.5}Линейные операторы в конечномерном пространстве и их матричное представление. Характеристический многочлен, собственные числа и собственные вектора линейного оператора. Сопряженные и самосопряженные операторы.}{13}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1} Линейные операторы}{13}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Характеристический многочлен}{14}{subsubsection.1.5.2}%
 \contentsline {subsubsection}{\numberline {1.5.3}Сопряженные и самосопряженные операторы}{15}{subsubsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.6}Задача Коши для системы обыкновенных дифференциальных уравнений. Существование и единственность решения. Устойчивость.}{15}{subsection.1.6}%
 \contentsline {subsubsection}{\numberline {1.6.1}Существование и единственность решения}{16}{subsubsection.1.6.1}%
 \contentsline {subsubsection}{\numberline {1.6.2}Устойчивость}{16}{subsubsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.7}Линейные обыкновенные дифференциальные уравнения и системы. Фундаментальная система решений. Метод вариации постоянных для решения неоднородных уравнений.}{17}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.7}Линейные обыкновенные дифференциальные уравнения и системы. Фундаментальная система решений. Метод вариации постоянных для решения неоднородных уравнений.}{16}{subsection.1.7}%
 \contentsline {subsubsection}{\numberline {1.7.1}Фундаментальная система решений}{17}{subsubsection.1.7.1}%
-\contentsline {subsubsection}{\numberline {1.7.2}Метод вариации постоянных для решения неоднородных уравнений}{18}{subsubsection.1.7.2}%
-\contentsline {subsection}{\numberline {1.8}Дискретные случайные величины. Математическое ожидание и дисперсия. Стандартные дискретные распределения (Бернулли, биномиальное, геометрическое, Пуассона).}{18}{subsection.1.8}%
+\contentsline {subsubsection}{\numberline {1.7.2}Метод вариации постоянных для решения неоднородных уравнений}{17}{subsubsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.8}Дискретные случайные величины. Математическое ожидание и дисперсия. Стандартные дискретные распределения (Бернулли, биномиальное, геометрическое, Пуассона).}{17}{subsection.1.8}%
 \contentsline {subsubsection}{\numberline {1.8.1} Стандартные дискретные распределения}{18}{subsubsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.9}Непрерывные случайные величины и их функции распределения. Математическое ожидание и дисперсия. Стандартные непрерывные распределения (равномерное, показательное, нормальное).}{19}{subsection.1.9}%
-\contentsline {subsubsection}{\numberline {1.9.1}Непрерывные случайные величины}{19}{subsubsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9}Непрерывные случайные величины и их функции распределения. Математическое ожидание и дисперсия. Стандартные непрерывные распределения (равномерное, показательное, нормальное).}{18}{subsection.1.9}%
+\contentsline {subsubsection}{\numberline {1.9.1}Непрерывные случайные величины}{18}{subsubsection.1.9.1}%
 \contentsline {subsubsection}{\numberline {1.9.2}Стандартные равномерные распределения}{19}{subsubsection.1.9.2}%
-\contentsline {subsection}{\numberline {1.10}Вероятностные неравенства Йенсена, Маркова и Чебышёва. Правило трёх сигм. Закон больших чисел}{20}{subsection.1.10}%
-\contentsline {subsubsection}{\numberline {1.10.1}Неравенство Йенсена}{20}{subsubsection.1.10.1}%
-\contentsline {subsubsection}{\numberline {1.10.2}Неравенство Маркова}{20}{subsubsection.1.10.2}%
+\contentsline {subsection}{\numberline {1.10}Вероятностные неравенства Йенсена, Маркова и Чебышёва. Правило трёх сигм. Закон больших чисел}{19}{subsection.1.10}%
+\contentsline {subsubsection}{\numberline {1.10.1}Неравенство Йенсена}{19}{subsubsection.1.10.1}%
+\contentsline {subsubsection}{\numberline {1.10.2}Неравенство Маркова}{19}{subsubsection.1.10.2}%
 \contentsline {subsubsection}{\numberline {1.10.3}Неравенство Чебышева}{20}{subsubsection.1.10.3}%
-\contentsline {subsubsection}{\numberline {1.10.4}Правило трех сигм}{21}{subsubsection.1.10.4}%
-\contentsline {subsubsection}{\numberline {1.10.5}Закон больших чисел}{21}{subsubsection.1.10.5}%
-\contentsline {subsection}{\numberline {1.11}Множества и операции над ними. Булевы функции, КНФ, ДНФ. Базисы, теорема Поста.}{21}{subsection.1.11}%
-\contentsline {subsubsection}{\numberline {1.11.1}Множества и операции над ними}{21}{subsubsection.1.11.1}%
-\contentsline {subsubsection}{\numberline {1.11.2}Булевы функции, КНФ, ДНФ}{21}{subsubsection.1.11.2}%
+\contentsline {subsubsection}{\numberline {1.10.4}Правило трех сигм}{20}{subsubsection.1.10.4}%
+\contentsline {subsubsection}{\numberline {1.10.5}Закон больших чисел}{20}{subsubsection.1.10.5}%
+\contentsline {subsection}{\numberline {1.11}Множества и операции над ними. Булевы функции, КНФ, ДНФ. Базисы, теорема Поста.}{20}{subsection.1.11}%
+\contentsline {subsubsection}{\numberline {1.11.1}Множества и операции над ними}{20}{subsubsection.1.11.1}%
+\contentsline {subsubsection}{\numberline {1.11.2}Булевы функции, КНФ, ДНФ}{20}{subsubsection.1.11.2}%
 \contentsline {subsubsection}{\numberline {1.11.3}Базисы, теорема Поста}{21}{subsubsection.1.11.3}%
-\contentsline {subsection}{\numberline {1.12}Комбинаторные объекты. Коды Грея. Формула включения-исключения. Лемма Бернсайда и Теорема Пойа. Числа Стирлинга. Подсчёт деревьев. Метод производящих функций.}{23}{subsection.1.12}%
-\contentsline {subsubsection}{\numberline {1.12.1}Коды Грея}{23}{subsubsection.1.12.1}%
-\contentsline {subsubsection}{\numberline {1.12.2}Формула включения-исключения}{24}{subsubsection.1.12.2}%
-\contentsline {subsubsection}{\numberline {1.12.3}Лемма Бернсайда}{24}{subsubsection.1.12.3}%
-\contentsline {subsubsection}{\numberline {1.12.4}Теорема Пойа}{25}{subsubsection.1.12.4}%
-\contentsline {subsubsection}{\numberline {1.12.5}Числа Стирлинга}{25}{subsubsection.1.12.5}%
-\contentsline {subsubsection}{\numberline {1.12.6}Подсчет деревьев}{25}{subsubsection.1.12.6}%
-\contentsline {subsubsection}{\numberline {1.12.7}Метод производящих функций}{26}{subsubsection.1.12.7}%
-\contentsline {subsection}{\numberline {1.13}Детерминированные и недетерминированные конечные автоматы, их эквивалентность. Минимизация ДКА.}{26}{subsection.1.13}%
+\contentsline {subsection}{\numberline {1.12}Комбинаторные объекты. Коды Грея. Формула включения-исключения. Лемма Бернсайда и Теорема Пойа. Числа Стирлинга. Подсчёт деревьев. Метод производящих функций.}{22}{subsection.1.12}%
+\contentsline {subsubsection}{\numberline {1.12.1}Коды Грея}{22}{subsubsection.1.12.1}%
+\contentsline {subsubsection}{\numberline {1.12.2}Формула включения-исключения}{23}{subsubsection.1.12.2}%
+\contentsline {subsubsection}{\numberline {1.12.3}Лемма Бернсайда}{23}{subsubsection.1.12.3}%
+\contentsline {subsubsection}{\numberline {1.12.4}Теорема Пойа}{24}{subsubsection.1.12.4}%
+\contentsline {subsubsection}{\numberline {1.12.5}Числа Стирлинга}{24}{subsubsection.1.12.5}%
+\contentsline {subsubsection}{\numberline {1.12.6}Подсчет деревьев}{24}{subsubsection.1.12.6}%
+\contentsline {subsubsection}{\numberline {1.12.7}Метод производящих функций}{25}{subsubsection.1.12.7}%
+\contentsline {subsection}{\numberline {1.13}Детерминированные и недетерминированные конечные автоматы, их эквивалентность. Минимизация ДКА.}{25}{subsection.1.13}%
 \contentsline {subsubsection}{\numberline {1.13.1}Минимизация ДКА}{27}{subsubsection.1.13.1}%
-\contentsline {subsubsection}{\numberline {1.13.2}Регулярные языки}{28}{subsubsection.1.13.2}%
+\contentsline {subsubsection}{\numberline {1.13.2}Регулярные языки}{27}{subsubsection.1.13.2}%
 \contentsline {subsection}{\numberline {1.14}Математическая логика. Понятие доказательства. Правила вывода. Теоремы Гёделя.}{28}{subsection.1.14}%
-\contentsline {subsection}{\numberline {1.15}Контекстно-свободные грамматики. Эффективные методы разбора: LL(k)-, LR(k)- и LALR-грамматики.}{30}{subsection.1.15}%
-\contentsline {subsection}{\numberline {1.16}Комбинаторная теория сложности. Временная и емкостная сложность. Сложностные классы P, NP, PS. Сведение, NP-полные задачи.}{30}{subsection.1.16}%
-\contentsline {subsection}{\numberline {1.17}Марковские цепи, Эргодические цепи, Регулярные цепи. Алгоритм Витерби.}{30}{subsection.1.17}%
-\contentsline {subsection}{\numberline {1.18}Линейные структуры данных. Амортизационный анализ. Поисковые структуры данных. Запросы на отрезках. Персистентные структуры данных.}{30}{subsection.1.18}%
-\contentsline {subsection}{\numberline {1.19}Графы. Обход графов. Поиск кратчайших путей. Задача о паросочетании, максимальном потоке и максимальном потоке минимальной стоимости.}{30}{subsection.1.19}%
-\contentsline {subsection}{\numberline {1.20}Строки. Поиск строки в подстроке. Бор, алгоритм Ахо-Корасика. Суффиксные массивы и деревья.}{30}{subsection.1.20}%
-\contentsline {subsection}{\numberline {1.21}Постановка задачи линейного программирования. Двойственность задачи ЛП.}{30}{subsection.1.21}%
-\contentsline {subsection}{\numberline {1.22}Градиентные методы. Метод сопряжения градиентов. Минимизация квадратичных функций. Метод Ньютона.}{30}{subsection.1.22}%
-\contentsline {section}{\numberline {2}Программирование и вычислительная техника}{31}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Архитектура ЭВМ. Архитектура фон Неймана и гарвардская архитектура. Основные принципы и их альтернативы. Архитектура набора команд (ISA), CISC и RISC архитектуры.}{31}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Архитектура ЭВМ}{31}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Архитектура фон Неймана и гарвардская архитектура. Основные принципы и их альтернативы.}{31}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Архитектура набора команд (ISA), CISC и RISC архитектуры.}{31}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}Архитектура ЭВМ. Кэш-память. Многоуровневая организация кэш-памяти. Протоколы когерентности кэш-памяти}{32}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Архитектура ЭВМ}{32}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Кэш-память. Многоуровневая организация кэш-памяти. Протоколы когерентности кэш-памяти}{32}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Многоуровневая организация кэш-памяти (подробнее)}{32}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}С++. Процесс компиляции и линковки. .cpp, .h, .i, .o файлы.}{33}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Заголовочные файлы (.h)}{33}{subsubsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.4}С++. Жизненный цикл объектов в С++. RAII.}{33}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Java. Устройство сборщика мусора в JVM.}{33}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Java. Java Reflections. Работа с метаинформацией классов в процессе исполнения программ}{34}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Метапрограммирование. Шаблоны и Generics. Частичная специализация шаблонов.}{35}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Метапрограммирование}{35}{subsubsection.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.7.2}Шаблоны и Generics. Частичная специализация шаблонов.}{36}{subsubsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.8}Функциональное программирование. Чистые объекты. Функторы. Аппликативы. Монада. Взаимодействие с внешним миром.}{37}{subsection.2.8}%
-\contentsline {subsubsection}{\numberline {2.8.1}Функциональное программирование. Чистые объекты.}{37}{subsubsection.2.8.1}%
-\contentsline {subsubsection}{\numberline {2.8.2}Функторы}{37}{subsubsection.2.8.2}%
-\contentsline {subsubsection}{\numberline {2.8.3}Аппликативы.}{38}{subsubsection.2.8.3}%
-\contentsline {subsubsection}{\numberline {2.8.4}Монады}{38}{subsubsection.2.8.4}%
-\contentsline {subsubsection}{\numberline {2.8.5}Взаимодействие с внешним миром.}{39}{subsubsection.2.8.5}%
-\contentsline {subsection}{\numberline {2.9}Операционные системы. Процессы: вытесняющая и кооперативная многозадачность, планировщики, многопроцессорные машины.}{39}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Операционные системы. Виртуальная память: MMU, TLB, таблицы страниц, аллокаторы и менеджеры виртуальной памяти.}{40}{subsection.2.10}%
-\contentsline {subsubsection}{\numberline {2.10.1}Виртуальная память: MMU, TLB.}{40}{subsubsection.2.10.1}%
-\contentsline {subsubsection}{\numberline {2.10.2}Таблицы страниц.}{41}{subsubsection.2.10.2}%
-\contentsline {subsubsection}{\numberline {2.10.3}Аллокаторы.}{41}{subsubsection.2.10.3}%
-\contentsline {subsubsection}{\numberline {2.10.4}Менеджеры виртуальной памяти.}{41}{subsubsection.2.10.4}%
-\contentsline {subsection}{\numberline {2.11}Операционные системы. Виртуальная память: MMU, TLB, таблицы страниц, аллокаторы и менеджеры виртуальной памяти.}{42}{subsection.2.11}%
-\contentsline {subsubsection}{\numberline {2.11.1}Виртуальная память: MMU, TLB.}{42}{subsubsection.2.11.1}%
-\contentsline {subsubsection}{\numberline {2.11.2}Таблицы страниц.}{42}{subsubsection.2.11.2}%
-\contentsline {subsubsection}{\numberline {2.11.3}Аллокаторы.}{42}{subsubsection.2.11.3}%
-\contentsline {subsubsection}{\numberline {2.11.4}Менеджеры виртуальной памяти.}{43}{subsubsection.2.11.4}%
-\contentsline {subsection}{\numberline {2.12}Операционные системы. Файловые системы (UNIX): файлы и директории, inode, контроль доступа. Файловые системы (реализация в ядре): VFS, блочные устройства, планировщик IO}{43}{subsection.2.12}%
-\contentsline {subsubsection}{\numberline {2.12.1}Файловые системы (UNIX): файлы и директории, inode, контроль доступа.}{43}{subsubsection.2.12.1}%
-\contentsline {subsubsection}{\numberline {2.12.2}Файловые системы (реализация в ядре): VFS, блочные устройства, планировщик IO}{44}{subsubsection.2.12.2}%
-\contentsline {subsection}{\numberline {2.13}Параллельное программирование. Свойства прогресса (lock-freedom, waitfreedom). Свойства корректности (linearizability, sequential consistency). Универсальная конструкция.}{46}{subsection.2.13}%
-\contentsline {subsection}{\numberline {2.14}Параллельное программирование. Консенсусное число. Стек Трайбера. Очередь Майкла-Скотта.}{46}{subsection.2.14}%
-\contentsline {subsection}{\numberline {2.15}Компьютерные сети. Модель OSI. Устройства коммутации и маршрутизации. Протоколы Ethernet, IP, TCP, UDP.}{46}{subsection.2.15}%
-\contentsline {subsection}{\numberline {2.16}Компьютерные сети. DHCP, DNS, NAT. Интернет-протоколы.}{46}{subsection.2.16}%
-\contentsline {subsection}{\numberline {2.17}Базы данных. Типы баз данных. Реляционные БД. Нормальные формы РБД. Язык SQL}{46}{subsection.2.17}%
-\contentsline {subsection}{\numberline {2.18}Базы данных. Реализация реляционных СУБД. Индексы, применение индексов. Транзакции, свойства транзакций. Блокировки, типы блокировок.}{46}{subsection.2.18}%
-\contentsline {subsection}{\numberline {2.19}Шаблоны проектирования, их применение. Классификация шаблонов проектирования. Примеры шаблонов проектирования.}{46}{subsection.2.19}%
-\contentsline {subsection}{\numberline {2.20}Теория кодирования. Блоковые коды и их параметры. Критерии декодирования и метрики. Границы Хемминга и Варшамова-Гилберта.}{47}{subsection.2.20}%
-\contentsline {subsection}{\numberline {2.21}Теория кодирования. Линейные коды. Границы Синглтона, ВаршамоваГилберта и Грайсмера. Вероятность ошибки декодирования и необнаружения ошибки.}{47}{subsection.2.21}%
-\contentsline {subsection}{\numberline {2.22}Машинное обучение. Понятие машинного обучения в искусственном интеллекте. Классификация задач машинного обучения, их примеры и особенности.}{47}{subsection.2.22}%
-\contentsline {subsection}{\numberline {2.23}Машинное обучение. Многослойная нейронная сеть и алгоритм обратного распространения ошибок. Методы инициализации и методы оптимизации в нейронных сетях. Архитектуры сетей, их применение}{47}{subsection.2.23}%
+\contentsline {subsection}{\numberline {1.15}Контекстно-свободные грамматики. Эффективные методы разбора: LL(k)-, LR(k)- и LALR-грамматики.}{29}{subsection.1.15}%
+\contentsline {subsection}{\numberline {1.16}Комбинаторная теория сложности. Временная и емкостная сложность. Сложностные классы P, NP, PS. Сведение, NP-полные задачи.}{29}{subsection.1.16}%
+\contentsline {subsection}{\numberline {1.17}Марковские цепи, Эргодические цепи, Регулярные цепи. Алгоритм Витерби.}{29}{subsection.1.17}%
+\contentsline {subsection}{\numberline {1.18}Линейные структуры данных. Амортизационный анализ. Поисковые структуры данных. Запросы на отрезках. Персистентные структуры данных.}{29}{subsection.1.18}%
+\contentsline {subsection}{\numberline {1.19}Графы. Обход графов. Поиск кратчайших путей. Задача о паросочетании, максимальном потоке и максимальном потоке минимальной стоимости.}{29}{subsection.1.19}%
+\contentsline {subsection}{\numberline {1.20}Строки. Поиск строки в подстроке. Бор, алгоритм Ахо-Корасика. Суффиксные массивы и деревья.}{29}{subsection.1.20}%
+\contentsline {subsection}{\numberline {1.21}Постановка задачи линейного программирования. Двойственность задачи ЛП.}{29}{subsection.1.21}%
+\contentsline {subsection}{\numberline {1.22}Градиентные методы. Метод сопряжения градиентов. Минимизация квадратичных функций. Метод Ньютона.}{29}{subsection.1.22}%
+\contentsline {section}{\numberline {2}Программирование и вычислительная техника}{30}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Архитектура ЭВМ. Архитектура фон Неймана и гарвардская архитектура. Основные принципы и их альтернативы. Архитектура набора команд (ISA), CISC и RISC архитектуры.}{30}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Архитектура ЭВМ}{30}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Архитектура фон Неймана и гарвардская архитектура. Основные принципы и их альтернативы.}{30}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Архитектура набора команд (ISA), CISC и RISC архитектуры.}{30}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Архитектура ЭВМ. Кэш-память. Многоуровневая организация кэш-памяти. Протоколы когерентности кэш-памяти}{31}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Архитектура ЭВМ}{31}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Кэш-память. Многоуровневая организация кэш-памяти. Протоколы когерентности кэш-памяти}{31}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Многоуровневая организация кэш-памяти (подробнее)}{31}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}С++. Процесс компиляции и линковки. .cpp, .h, .i, .o файлы.}{32}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Заголовочные файлы (.h)}{32}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}С++. Жизненный цикл объектов в С++. RAII.}{32}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Java. Устройство сборщика мусора в JVM.}{32}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Java. Java Reflections. Работа с метаинформацией классов в процессе исполнения программ}{33}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Метапрограммирование. Шаблоны и Generics. Частичная специализация шаблонов.}{34}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Метапрограммирование}{34}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Шаблоны и Generics. Частичная специализация шаблонов.}{35}{subsubsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.8}Функциональное программирование. Чистые объекты. Функторы. Аппликативы. Монада. Взаимодействие с внешним миром.}{36}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Функциональное программирование. Чистые объекты.}{36}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Функторы}{36}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}Аппликативы.}{37}{subsubsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.4}Монады}{37}{subsubsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.5}Взаимодействие с внешним миром.}{38}{subsubsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.9}Операционные системы. Процессы: вытесняющая и кооперативная многозадачность, планировщики, многопроцессорные машины.}{38}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Операционные системы. Виртуальная память: MMU, TLB, таблицы страниц, аллокаторы и менеджеры виртуальной памяти.}{39}{subsection.2.10}%
+\contentsline {subsubsection}{\numberline {2.10.1}Виртуальная память: MMU, TLB.}{39}{subsubsection.2.10.1}%
+\contentsline {subsubsection}{\numberline {2.10.2}Таблицы страниц.}{40}{subsubsection.2.10.2}%
+\contentsline {subsubsection}{\numberline {2.10.3}Аллокаторы.}{40}{subsubsection.2.10.3}%
+\contentsline {subsubsection}{\numberline {2.10.4}Менеджеры виртуальной памяти.}{40}{subsubsection.2.10.4}%
+\contentsline {subsection}{\numberline {2.11}Операционные системы. Файловые системы (UNIX): файлы и директории, inode, контроль доступа. Файловые системы (реализация в ядре): VFS, блочные устройства, планировщик IO}{41}{subsection.2.11}%
+\contentsline {subsubsection}{\numberline {2.11.1}Файловые системы (UNIX): файлы и директории, inode, контроль доступа.}{41}{subsubsection.2.11.1}%
+\contentsline {subsubsection}{\numberline {2.11.2}Файловые системы (реализация в ядре): VFS, блочные устройства, планировщик IO}{42}{subsubsection.2.11.2}%
+\contentsline {subsection}{\numberline {2.12}Параллельное программирование. Свойства прогресса (lock-freedom, waitfreedom). Свойства корректности (linearizability, sequential consistency). Универсальная конструкция.}{43}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Параллельное программирование. Консенсусное число. Стек Трайбера. Очередь Майкла-Скотта.}{43}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}Компьютерные сети. Модель OSI. Устройства коммутации и маршрутизации. Протоколы Ethernet, IP, TCP, UDP.}{44}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}Компьютерные сети. DHCP, DNS, NAT. Интернет-протоколы.}{44}{subsection.2.15}%
+\contentsline {subsection}{\numberline {2.16}Базы данных. Типы баз данных. Реляционные БД. Нормальные формы РБД. Язык SQL}{44}{subsection.2.16}%
+\contentsline {subsection}{\numberline {2.17}Базы данных. Реализация реляционных СУБД. Индексы, применение индексов. Транзакции, свойства транзакций. Блокировки, типы блокировок.}{44}{subsection.2.17}%
+\contentsline {subsection}{\numberline {2.18}Шаблоны проектирования, их применение. Классификация шаблонов проектирования. Примеры шаблонов проектирования.}{44}{subsection.2.18}%
+\contentsline {subsection}{\numberline {2.19}Теория кодирования. Блоковые коды и их параметры. Критерии декодирования и метрики. Границы Хемминга и Варшамова-Гилберта.}{44}{subsection.2.19}%
+\contentsline {subsection}{\numberline {2.20}Теория кодирования. Линейные коды. Границы Синглтона, Варшамова-Гилберта и Грайсмера. Вероятность ошибки декодирования и необнаружения ошибки.}{44}{subsection.2.20}%
+\contentsline {subsection}{\numberline {2.21}Машинное обучение. Понятие машинного обучения в искусственном интеллекте. Классификация задач машинного обучения, их примеры и особенности.}{44}{subsection.2.21}%
+\contentsline {subsection}{\numberline {2.22}Машинное обучение. Многослойная нейронная сеть и алгоритм обратного распространения ошибок. Методы инициализации и методы оптимизации в нейронных сетях. Архитектуры сетей, их применение}{45}{subsection.2.22}%
