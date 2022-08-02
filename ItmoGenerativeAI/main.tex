@@ -887,4 +887,82 @@ $F^+ = (U D V^T V D U^T)^{-1} U D V^T = U D^{-1} V^T = \sum\limits_1^n
 
 $w^* = \sum\limits_1^n \frac{1}{\sqrt{\lambda_j}} u_j (v_j^T y)$
 
+
+\subsection{Метод опорных векторов для линейно разделимой выборки. Ядра и ядерный
+трюк в методе опорных векторов.}
+
+\href{https://neerc.ifmo.ru/wiki/index.php?title=%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%BE%D0%BF%D0%BE%D1%80%D0%BD%D1%8B%D1%85_%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2_(SVM)}{SVM}
+
+
+\subsection{Вероятностная постановка задачи классификации и оптимальный
+байесовский классификатор.Непараметрический метод оценки плотности.}
+
+\href{
+	https://neerc.ifmo.ru/wiki/index.php?title=%D0%91%D0%B0%D0%B9%D0%B5%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F
+}{Вероятностная постановка + опт байес}
+
+\href{
+	http://www.machinelearning.ru/wiki/index.php?title=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D0%BB%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F
+}{
+	Метод оценки плотности (непарам)
+}
+
+
+\subsection{Параметрический метод оценки плотности и метод максимального
+правдоподобия.}
+
+\href{
+	http://www.machinelearning.ru/wiki/index.php?title=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D0%BB%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F
+}{
+	Метод оценки плотности и метод макс правдоподобия
+}
+
+\subsection{Логистическая регрессия.}
+
+\href{http://www.machinelearning.ru/wiki/index.php?title=%D0%9B%D0%BE%D0%B3%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D1%8F}{
+	Logreg
+}
+
+
+\subsection{Логические правила и вывод закономерностей. Деревья принятия решений.}
+
+
+\subsection{Задача бустинга и градиентный бустинг. AdaBoost и его теоретические свойства.}
+
+\href{
+	https://neerc.ifmo.ru/wiki/index.php?title=%D0%91%D1%83%D1%81%D1%82%D0%B8%D0%BD%D0%B3,_AdaBoost
+}{
+	Бустинг, adaboost
+}
+
+\href{
+	https://logic.pdmi.ras.ru/~sergey/teaching/mlstc12/16-boosting.pdf
+}{
+	Теоретические свойства AdaBoost
+}
+
+
+\subsection{Случайный лес и стэкинг.}
+
+\D{
+	\textbf{Стэкинг} - метод ансамблирования моделей, при котором учитываются
+	ответы всех моделей (например как среднее или majority vote)
+}
+
+При стекинге обучающую выборку делят на 2: на первой обучают базовые алгоритмы,
+на второй получают мета-признаки из базовых алгоритмов и обучают метаалгоритм.
+
+\href{
+	https://learnmachinelearning.fandom.com/ru/wiki/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D0%B8_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9#%D0%A1%D1%82%D1%8D%D0%BA%D0%B8%D0%BD%D0%B3_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9
+}{Стэкинг}
+
+\href{
+	https://neerc.ifmo.ru/wiki/index.php?title=%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%BE_%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B8_%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BB%D0%B5%D1%81#.D0.A1.D0.BB.D1.83.D1.87.D0.B0.D0.B9.D0.BD.D1.8B.D0.B9_.D0.BB.D0.B5.D1.81
+}{Случайный лес}
+
+
+\subsection{Нейрон Маккалока-Питтса, выразительная мощность нейрона. Многослойная
+нейронная сеть и алгоритм обратного распространения ошибок.}
+
+
 \end{document}
