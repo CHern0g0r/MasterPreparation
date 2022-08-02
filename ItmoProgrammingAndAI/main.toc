@@ -55,53 +55,54 @@
 \contentsline {subsubsection}{\numberline {1.13.2}Регулярные языки}{27}{subsubsection.1.13.2}%
 \contentsline {subsection}{\numberline {1.14}Математическая логика. Понятие доказательства. Правила вывода. Теоремы Гёделя.}{28}{subsection.1.14}%
 \contentsline {subsection}{\numberline {1.15}Контекстно-свободные грамматики. Эффективные методы разбора: LL(k)-, LR(k)- и LALR-грамматики.}{29}{subsection.1.15}%
-\contentsline {subsection}{\numberline {1.16}Комбинаторная теория сложности. Временная и емкостная сложность. Сложностные классы P, NP, PS. Сведение, NP-полные задачи.}{29}{subsection.1.16}%
-\contentsline {subsection}{\numberline {1.17}Марковские цепи, Эргодические цепи, Регулярные цепи. Алгоритм Витерби.}{29}{subsection.1.17}%
-\contentsline {subsection}{\numberline {1.18}Линейные структуры данных. Амортизационный анализ. Поисковые структуры данных. Запросы на отрезках. Персистентные структуры данных.}{29}{subsection.1.18}%
-\contentsline {subsection}{\numberline {1.19}Графы. Обход графов. Поиск кратчайших путей. Задача о паросочетании, максимальном потоке и максимальном потоке минимальной стоимости.}{29}{subsection.1.19}%
-\contentsline {subsection}{\numberline {1.20}Строки. Поиск строки в подстроке. Бор, алгоритм Ахо-Корасика. Суффиксные массивы и деревья.}{29}{subsection.1.20}%
-\contentsline {subsection}{\numberline {1.21}Постановка задачи линейного программирования. Двойственность задачи ЛП.}{29}{subsection.1.21}%
-\contentsline {subsection}{\numberline {1.22}Градиентные методы. Метод сопряжения градиентов. Минимизация квадратичных функций. Метод Ньютона.}{29}{subsection.1.22}%
-\contentsline {section}{\numberline {2}Программирование и вычислительная техника}{30}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Архитектура ЭВМ. Архитектура фон Неймана и гарвардская архитектура. Основные принципы и их альтернативы. Архитектура набора команд (ISA), CISC и RISC архитектуры.}{30}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Архитектура ЭВМ}{30}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Архитектура фон Неймана и гарвардская архитектура. Основные принципы и их альтернативы.}{30}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Архитектура набора команд (ISA), CISC и RISC архитектуры.}{30}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}Архитектура ЭВМ. Кэш-память. Многоуровневая организация кэш-памяти. Протоколы когерентности кэш-памяти}{31}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Архитектура ЭВМ}{31}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Кэш-память. Многоуровневая организация кэш-памяти. Протоколы когерентности кэш-памяти}{31}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Многоуровневая организация кэш-памяти (подробнее)}{31}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}С++. Процесс компиляции и линковки. .cpp, .h, .i, .o файлы.}{32}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Заголовочные файлы (.h)}{32}{subsubsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.4}С++. Жизненный цикл объектов в С++. RAII.}{32}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Java. Устройство сборщика мусора в JVM.}{32}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Java. Java Reflections. Работа с метаинформацией классов в процессе исполнения программ}{33}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Метапрограммирование. Шаблоны и Generics. Частичная специализация шаблонов.}{34}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Метапрограммирование}{34}{subsubsection.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.7.2}Шаблоны и Generics. Частичная специализация шаблонов.}{35}{subsubsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.8}Функциональное программирование. Чистые объекты. Функторы. Аппликативы. Монада. Взаимодействие с внешним миром.}{36}{subsection.2.8}%
-\contentsline {subsubsection}{\numberline {2.8.1}Функциональное программирование. Чистые объекты.}{36}{subsubsection.2.8.1}%
-\contentsline {subsubsection}{\numberline {2.8.2}Функторы}{36}{subsubsection.2.8.2}%
-\contentsline {subsubsection}{\numberline {2.8.3}Аппликативы.}{37}{subsubsection.2.8.3}%
-\contentsline {subsubsection}{\numberline {2.8.4}Монады}{37}{subsubsection.2.8.4}%
-\contentsline {subsubsection}{\numberline {2.8.5}Взаимодействие с внешним миром.}{38}{subsubsection.2.8.5}%
-\contentsline {subsection}{\numberline {2.9}Операционные системы. Процессы: вытесняющая и кооперативная многозадачность, планировщики, многопроцессорные машины.}{38}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Операционные системы. Виртуальная память: MMU, TLB, таблицы страниц, аллокаторы и менеджеры виртуальной памяти.}{39}{subsection.2.10}%
-\contentsline {subsubsection}{\numberline {2.10.1}Виртуальная память: MMU, TLB.}{39}{subsubsection.2.10.1}%
-\contentsline {subsubsection}{\numberline {2.10.2}Таблицы страниц.}{40}{subsubsection.2.10.2}%
-\contentsline {subsubsection}{\numberline {2.10.3}Аллокаторы.}{40}{subsubsection.2.10.3}%
-\contentsline {subsubsection}{\numberline {2.10.4}Менеджеры виртуальной памяти.}{40}{subsubsection.2.10.4}%
-\contentsline {subsection}{\numberline {2.11}Операционные системы. Файловые системы (UNIX): файлы и директории, inode, контроль доступа. Файловые системы (реализация в ядре): VFS, блочные устройства, планировщик IO}{41}{subsection.2.11}%
-\contentsline {subsubsection}{\numberline {2.11.1}Файловые системы (UNIX): файлы и директории, inode, контроль доступа.}{41}{subsubsection.2.11.1}%
-\contentsline {subsubsection}{\numberline {2.11.2}Файловые системы (реализация в ядре): VFS, блочные устройства, планировщик IO}{42}{subsubsection.2.11.2}%
-\contentsline {subsection}{\numberline {2.12}Параллельное программирование. Свойства прогресса (lock-freedom, waitfreedom). Свойства корректности (linearizability, sequential consistency). Универсальная конструкция.}{43}{subsection.2.12}%
-\contentsline {subsection}{\numberline {2.13}Параллельное программирование. Консенсусное число. Стек Трайбера. Очередь Майкла-Скотта.}{43}{subsection.2.13}%
-\contentsline {subsection}{\numberline {2.14}Компьютерные сети. Модель OSI. Устройства коммутации и маршрутизации. Протоколы Ethernet, IP, TCP, UDP.}{44}{subsection.2.14}%
-\contentsline {subsection}{\numberline {2.15}Компьютерные сети. DHCP, DNS, NAT. Интернет-протоколы.}{44}{subsection.2.15}%
-\contentsline {subsection}{\numberline {2.16}Базы данных. Типы баз данных. Реляционные БД. Нормальные формы РБД. Язык SQL}{44}{subsection.2.16}%
-\contentsline {subsection}{\numberline {2.17}Базы данных. Реализация реляционных СУБД. Индексы, применение индексов. Транзакции, свойства транзакций. Блокировки, типы блокировок.}{44}{subsection.2.17}%
-\contentsline {subsection}{\numberline {2.18}Шаблоны проектирования, их применение. Классификация шаблонов проектирования. Примеры шаблонов проектирования.}{44}{subsection.2.18}%
-\contentsline {subsection}{\numberline {2.19}Теория кодирования. Блоковые коды и их параметры. Критерии декодирования и метрики. Границы Хемминга и Варшамова-Гилберта.}{44}{subsection.2.19}%
-\contentsline {subsection}{\numberline {2.20}Теория кодирования. Линейные коды. Границы Синглтона, Варшамова-Гилберта и Грайсмера. Вероятность ошибки декодирования и необнаружения ошибки.}{44}{subsection.2.20}%
-\contentsline {subsection}{\numberline {2.21}Машинное обучение. Понятие машинного обучения в искусственном интеллекте. Классификация задач машинного обучения, их примеры и особенности.}{44}{subsection.2.21}%
-\contentsline {subsection}{\numberline {2.22}Машинное обучение. Многослойная нейронная сеть и алгоритм обратного распространения ошибок. Методы инициализации и методы оптимизации в нейронных сетях. Архитектуры сетей, их применение}{45}{subsection.2.22}%
+\contentsline {subsection}{\numberline {1.16}Комбинаторная теория сложности. Временная и емкостная сложность. Сложностные классы P, NP, PS. Сведение, NP-полные задачи.}{30}{subsection.1.16}%
+\contentsline {subsection}{\numberline {1.17}Марковские цепи, Эргодические цепи, Регулярные цепи. Алгоритм Витерби.}{30}{subsection.1.17}%
+\contentsline {subsubsection}{\numberline {1.17.1}Алгоритм Витерби}{30}{subsubsection.1.17.1}%
+\contentsline {subsection}{\numberline {1.18}Линейные структуры данных. Амортизационный анализ. Поисковые структуры данных. Запросы на отрезках. Персистентные структуры данных.}{31}{subsection.1.18}%
+\contentsline {subsection}{\numberline {1.19}Графы. Обход графов. Поиск кратчайших путей. Задача о паросочетании, максимальном потоке и максимальном потоке минимальной стоимости.}{31}{subsection.1.19}%
+\contentsline {subsection}{\numberline {1.20}Строки. Поиск строки в подстроке. Бор, алгоритм Ахо-Корасика. Суффиксные массивы и деревья.}{31}{subsection.1.20}%
+\contentsline {subsection}{\numberline {1.21}Постановка задачи линейного программирования. Двойственность задачи ЛП.}{31}{subsection.1.21}%
+\contentsline {subsection}{\numberline {1.22}Градиентные методы. Метод сопряжения градиентов. Минимизация квадратичных функций. Метод Ньютона.}{31}{subsection.1.22}%
+\contentsline {section}{\numberline {2}Программирование и вычислительная техника}{32}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Архитектура ЭВМ. Архитектура фон Неймана и гарвардская архитектура. Основные принципы и их альтернативы. Архитектура набора команд (ISA), CISC и RISC архитектуры.}{32}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Архитектура ЭВМ}{32}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Архитектура фон Неймана и гарвардская архитектура. Основные принципы и их альтернативы.}{32}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Архитектура набора команд (ISA), CISC и RISC архитектуры.}{32}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Архитектура ЭВМ. Кэш-память. Многоуровневая организация кэш-памяти. Протоколы когерентности кэш-памяти}{33}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Архитектура ЭВМ}{33}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Кэш-память. Многоуровневая организация кэш-памяти. Протоколы когерентности кэш-памяти}{33}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Многоуровневая организация кэш-памяти (подробнее)}{33}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}С++. Процесс компиляции и линковки. .cpp, .h, .i, .o файлы.}{34}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Заголовочные файлы (.h)}{34}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}С++. Жизненный цикл объектов в С++. RAII.}{34}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Java. Устройство сборщика мусора в JVM.}{34}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Java. Java Reflections. Работа с метаинформацией классов в процессе исполнения программ}{35}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Метапрограммирование. Шаблоны и Generics. Частичная специализация шаблонов.}{36}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Метапрограммирование}{36}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Шаблоны и Generics. Частичная специализация шаблонов.}{37}{subsubsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.8}Функциональное программирование. Чистые объекты. Функторы. Аппликативы. Монада. Взаимодействие с внешним миром.}{38}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Функциональное программирование. Чистые объекты.}{38}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Функторы}{38}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}Аппликативы.}{39}{subsubsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.4}Монады}{39}{subsubsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.5}Взаимодействие с внешним миром.}{40}{subsubsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.9}Операционные системы. Процессы: вытесняющая и кооперативная многозадачность, планировщики, многопроцессорные машины.}{40}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Операционные системы. Виртуальная память: MMU, TLB, таблицы страниц, аллокаторы и менеджеры виртуальной памяти.}{41}{subsection.2.10}%
+\contentsline {subsubsection}{\numberline {2.10.1}Виртуальная память: MMU, TLB.}{41}{subsubsection.2.10.1}%
+\contentsline {subsubsection}{\numberline {2.10.2}Таблицы страниц.}{42}{subsubsection.2.10.2}%
+\contentsline {subsubsection}{\numberline {2.10.3}Аллокаторы.}{42}{subsubsection.2.10.3}%
+\contentsline {subsubsection}{\numberline {2.10.4}Менеджеры виртуальной памяти.}{42}{subsubsection.2.10.4}%
+\contentsline {subsection}{\numberline {2.11}Операционные системы. Файловые системы (UNIX): файлы и директории, inode, контроль доступа. Файловые системы (реализация в ядре): VFS, блочные устройства, планировщик IO}{43}{subsection.2.11}%
+\contentsline {subsubsection}{\numberline {2.11.1}Файловые системы (UNIX): файлы и директории, inode, контроль доступа.}{43}{subsubsection.2.11.1}%
+\contentsline {subsubsection}{\numberline {2.11.2}Файловые системы (реализация в ядре): VFS, блочные устройства, планировщик IO}{44}{subsubsection.2.11.2}%
+\contentsline {subsection}{\numberline {2.12}Параллельное программирование. Свойства прогресса (lock-freedom, waitfreedom). Свойства корректности (linearizability, sequential consistency). Универсальная конструкция.}{45}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Параллельное программирование. Консенсусное число. Стек Трайбера. Очередь Майкла-Скотта.}{45}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}Компьютерные сети. Модель OSI. Устройства коммутации и маршрутизации. Протоколы Ethernet, IP, TCP, UDP.}{46}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}Компьютерные сети. DHCP, DNS, NAT. Интернет-протоколы.}{46}{subsection.2.15}%
+\contentsline {subsection}{\numberline {2.16}Базы данных. Типы баз данных. Реляционные БД. Нормальные формы РБД. Язык SQL}{46}{subsection.2.16}%
+\contentsline {subsection}{\numberline {2.17}Базы данных. Реализация реляционных СУБД. Индексы, применение индексов. Транзакции, свойства транзакций. Блокировки, типы блокировок.}{46}{subsection.2.17}%
+\contentsline {subsection}{\numberline {2.18}Шаблоны проектирования, их применение. Классификация шаблонов проектирования. Примеры шаблонов проектирования.}{46}{subsection.2.18}%
+\contentsline {subsection}{\numberline {2.19}Теория кодирования. Блоковые коды и их параметры. Критерии декодирования и метрики. Границы Хемминга и Варшамова-Гилберта.}{46}{subsection.2.19}%
+\contentsline {subsection}{\numberline {2.20}Теория кодирования. Линейные коды. Границы Синглтона, Варшамова-Гилберта и Грайсмера. Вероятность ошибки декодирования и необнаружения ошибки.}{46}{subsection.2.20}%
+\contentsline {subsection}{\numberline {2.21}Машинное обучение. Понятие машинного обучения в искусственном интеллекте. Классификация задач машинного обучения, их примеры и особенности.}{46}{subsection.2.21}%
+\contentsline {subsection}{\numberline {2.22}Машинное обучение. Многослойная нейронная сеть и алгоритм обратного распространения ошибок. Методы инициализации и методы оптимизации в нейронных сетях. Архитектуры сетей, их применение}{47}{subsection.2.22}%
