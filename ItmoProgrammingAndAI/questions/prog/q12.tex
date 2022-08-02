@@ -1,3 +1,19 @@
 \subsection{Параллельное программирование. Свойства прогресса (lock-freedom, waitfreedom). Свойства корректности (linearizability, sequential consistency). Универсальная конструкция.}
 
+\D{
+	An algorithm is wait-free if every operation has a bound on the number of steps the algorithm will take before the operation completes.
+}
+
+\D{
+	An algorithm is lock-free if, when the program threads are run for a sufficiently long time, at least one of the threads makes progress (for some sensible definition of progress). All wait-free algorithms are lock-free. 
+}
+
+\D{
+	Линеаризуемость (англ. linearizability) в многопоточном программировании — это свойство программы, при котором результат любого параллельного выполнения процедур (операций) эквивалентен некоторому последовательному выполнению.
+}
+
+\href{https://en.wikipedia.org/wiki/Sequential_consistency}{Sequential consistency}
+
+\href{https://itchef.ru/articles/470354/}{Что-то про универсальную конструкцию}. Есть мнение, что эта ебала на русском нормально не ищется...
+
 \href{https://www.babichev.org/tpmtp/Lecture08.pdf}{Слайды по теме}
